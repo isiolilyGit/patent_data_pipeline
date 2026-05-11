@@ -1,0 +1,94 @@
+================================================================================
+DATASET: clean_locations
+================================================================================
+
+Rows: 100,452
+Columns: 6
+Duplicate Rows: 0
+Memory Usage: 23.96 MB
+
+COLUMN INFORMATION
+--------------------------------------------------------------------------------
+
+location_id
+  Type: str
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 100,452
+
+city
+  Type: str
+  Missing: 84
+  Missing %: 0.08%
+  Unique Values: 85,129
+
+state
+  Type: str
+  Missing: 68,730
+  Missing %: 68.42%
+  Unique Values: 69
+
+country
+  Type: str
+  Missing: 10
+  Missing %: 0.01%
+  Unique Values: 204
+
+latitude
+  Type: float64
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 100,346
+
+longitude
+  Type: float64
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 100,391
+
+NUMERIC STATISTICS
+--------------------------------------------------------------------------------
+
+latitude
+  Mean: 40.48
+  Std: 16.72
+  Min: -53.16
+  Max: 78.93
+
+longitude
+  Mean: -12.13
+  Std: 65.31
+  Min: -176.63
+  Max: 178.44
+
+TEXT STATISTICS
+--------------------------------------------------------------------------------
+
+location_id
+  Avg Length: 36.0
+  Min Length: 36
+  Max Length: 36
+
+city
+  Avg Length: 9.31
+  Min Length: 1
+  Max Length: 56
+
+state
+  Avg Length: 2.0
+  Min Length: 2
+  Max Length: 2
+
+country
+  Avg Length: 2.0
+  Min Length: 2
+  Max Length: 2
+
+SAMPLE ROWS
+--------------------------------------------------------------------------------
+                            location_id          city state country   latitude  longitude
+0  00235947-16c8-11ed-9b5f-1234bde3cd05     Westfield    PA      US  41.919237 -77.538874
+1  00236a27-16c8-11ed-9b5f-1234bde3cd05   Helfenstein    PA      US  40.750499 -76.447334
+2  00236f47-16c8-11ed-9b5f-1234bde3cd05    Pine Forge    PA      US  40.281920 -75.692236
+3  00237418-16c8-11ed-9b5f-1234bde3cd05       Partlow    VA      US  38.038748 -77.638876
+4  002378d7-16c8-11ed-9b5f-1234bde3cd05  Stumpy Point    NC      US  35.698506 -75.740453

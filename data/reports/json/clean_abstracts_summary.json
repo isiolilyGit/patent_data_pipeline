@@ -1,0 +1,36 @@
+{
+    "dataset_name": "clean_abstracts.csv",
+    "rows": 8588003,
+    "columns": 2,
+    "duplicate_rows": 0,
+    "memory_usage_mb": 7125.99,
+    "columns_info": [
+        {
+            "column": "patent_id",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 8588003
+        },
+        {
+            "column": "abstract",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 7440512
+        }
+    ],
+    "numeric_statistics": {},
+    "text_statistics": {
+        "patent_id": {
+            "avg_length": 7.29,
+            "min_length": 2,
+            "max_length": 8
+        },
+        "abstract": {
+            "avg_length": 710.81,
+            "min_length": 3,
+            "max_length": 57832
+        }
+    }
+}

@@ -1,0 +1,82 @@
+================================================================================
+DATASET: clean_patents
+================================================================================
+
+Rows: 9,454,161
+Columns: 5
+Duplicate Rows: 0
+Memory Usage: 2552.15 MB
+
+COLUMN INFORMATION
+--------------------------------------------------------------------------------
+
+patent_id
+  Type: str
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 9,454,161
+
+title
+  Type: str
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 6,619,903
+
+grant_date
+  Type: str
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 2,636
+
+patent_type
+  Type: str
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 7
+
+year
+  Type: int64
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 50
+
+NUMERIC STATISTICS
+--------------------------------------------------------------------------------
+
+year
+  Mean: 2008.60
+  Std: 12.86
+  Min: 1976.00
+  Max: 2025.00
+
+TEXT STATISTICS
+--------------------------------------------------------------------------------
+
+patent_id
+  Avg Length: 7.27
+  Min Length: 2
+  Max Length: 8
+
+title
+  Avg Length: 54.44
+  Min Length: 2
+  Max Length: 692
+
+grant_date
+  Avg Length: 10.0
+  Min Length: 10
+  Max Length: 10
+
+patent_type
+  Avg Length: 6.91
+  Min Length: 4
+  Max Length: 32
+
+SAMPLE ROWS
+--------------------------------------------------------------------------------
+  patent_id                                                                                                                                                                                                   title  grant_date patent_type  year
+0  10000000                                                                                                                                                   Coherent LADAR using intra-pixel quadrature detection  2018-06-19     utility  2018
+1  10000001                                                                                                                                             Injection molding machine and mold thickness control method  2018-06-19     utility  2018
+2  10000002                                                                                                                                              Method for manufacturing polymer film and co-extruded film  2018-06-19     utility  2018
+3  10000003                                                                                                                                                   Method for producing a container from a thermoplastic  2018-06-19     utility  2018
+4  10000004  Process of obtaining a double-oriented film, co-extruded, and of low thickness made by a three bubble process that at the time of being thermoformed provides a uniform thickness in the produced tray  2018-06-19     utility  2018

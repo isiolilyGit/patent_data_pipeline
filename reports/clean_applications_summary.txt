@@ -1,0 +1,45 @@
+DATASET: clean_applications.csv
+================================================================================
+
+Rows: 9,451,902
+Columns: 2
+Memory Usage: 1039.09 MB
+
+COLUMN INFORMATION
+--------------------------------------------------------------------------------
+patent_id
+   Type: str
+   Missing: 0 (0.00%)
+   Unique Values: 9,451,902
+
+filing_date
+   Type: str
+   Missing: 0 (0.00%)
+   Unique Values: 19,723
+
+
+DUPLICATES
+--------------------------------------------------------------------------------
+Duplicate Rows: 0
+
+TEXT COLUMN ANALYSIS
+--------------------------------------------------------------------------------
+
+patent_id
+   Avg Length: 7.27
+   Max Length: 8.00
+   Min Length: 6.00
+
+filing_date
+   Avg Length: 10.00
+   Max Length: 10.00
+   Min Length: 9.00
+
+SAMPLE ROWS
+--------------------------------------------------------------------------------
+  patent_id filing_date
+0   3963197  1074-08-14
+1   3933359  1074-09-23
+2   3941467  1074-10-29
+3   3936670  1074-10-29
+4   4003574  1075-03-04

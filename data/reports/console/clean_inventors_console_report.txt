@@ -1,0 +1,67 @@
+================================================================================
+DATASET: clean_inventors
+================================================================================
+
+Rows: 24,037,373
+Columns: 4
+Duplicate Rows: 1,372
+Memory Usage: 6227.85 MB
+
+COLUMN INFORMATION
+--------------------------------------------------------------------------------
+
+patent_id
+  Type: str
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 9,453,074
+
+inventor_id
+  Type: str
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 4,294,032
+
+name
+  Type: str
+  Missing: 0
+  Missing %: 0.0%
+  Unique Values: 4,156,246
+
+inventor_location_id
+  Type: str
+  Missing: 165,579
+  Missing %: 0.69%
+  Unique Values: 97,164
+
+TEXT STATISTICS
+--------------------------------------------------------------------------------
+
+patent_id
+  Avg Length: 7.33
+  Min Length: 2
+  Max Length: 8
+
+inventor_id
+  Avg Length: 17.62
+  Min Length: 12
+  Max Length: 72
+
+name
+  Avg Length: 14.83
+  Min Length: 1
+  Max Length: 91
+
+inventor_location_id
+  Avg Length: 36.0
+  Min Length: 36
+  Max Length: 36
+
+SAMPLE ROWS
+--------------------------------------------------------------------------------
+  patent_id           inventor_id                  name                  inventor_location_id
+0  D1006496    fl:we_ln:jiang-165         Wenjing Jiang  9d072d42-49af-11ed-9879-1234bde3cd05
+1  12029253    fl:ei_ln:baumker-1          Eiko BÄUMKER  67149e17-49af-11ed-9879-1234bde3cd05
+2   6584128    fl:ri_ln:kroeger-1       Richard Kroeger                                   NaN
+3   4789863       fl:th_ln:bush-1        Thomas A. Bush                                   NaN
+4  11161990  fl:ma_ln:boudreaux-4  Matthew F. Boudreaux  04726932-16c8-11ed-9b5f-1234bde3cd05

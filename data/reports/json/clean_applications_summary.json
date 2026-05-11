@@ -1,0 +1,36 @@
+{
+    "dataset_name": "clean_applications.csv",
+    "rows": 9451902,
+    "columns": 2,
+    "duplicate_rows": 0,
+    "memory_usage_mb": 1039.09,
+    "columns_info": [
+        {
+            "column": "patent_id",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 9451902
+        },
+        {
+            "column": "filing_date",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 19723
+        }
+    ],
+    "numeric_statistics": {},
+    "text_statistics": {
+        "patent_id": {
+            "avg_length": 7.27,
+            "min_length": 6,
+            "max_length": 8
+        },
+        "filing_date": {
+            "avg_length": 10.0,
+            "min_length": 9,
+            "max_length": 10
+        }
+    }
+}

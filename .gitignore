@@ -1,0 +1,12 @@
+patent_venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+/data/raw/*
+data/cleaned/*
+*.csv
+*.tsv
+*.zip
+
+outputs/

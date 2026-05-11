@@ -1,0 +1,60 @@
+{
+    "dataset_name": "clean_assignees.csv",
+    "rows": 8664230,
+    "columns": 4,
+    "duplicate_rows": 963,
+    "memory_usage_mb": 2484.53,
+    "columns_info": [
+        {
+            "column": "patent_id",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 8371138
+        },
+        {
+            "column": "company_id",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 516032
+        },
+        {
+            "column": "name",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 516032
+        },
+        {
+            "column": "assignee_location_id",
+            "dtype": "str",
+            "missing_values": 93580,
+            "missing_percent": 1.08,
+            "unique_values": 37101
+        }
+    ],
+    "numeric_statistics": {},
+    "text_statistics": {
+        "patent_id": {
+            "avg_length": 7.29,
+            "min_length": 2,
+            "max_length": 8
+        },
+        "company_id": {
+            "avg_length": 36.0,
+            "min_length": 36,
+            "max_length": 36
+        },
+        "name": {
+            "avg_length": 25.45,
+            "min_length": 1,
+            "max_length": 246
+        },
+        "assignee_location_id": {
+            "avg_length": 36.0,
+            "min_length": 36,
+            "max_length": 36
+        }
+    }
+}

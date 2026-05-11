@@ -1,0 +1,75 @@
+{
+    "dataset_name": "clean_patents.csv",
+    "rows": 9454161,
+    "columns": 5,
+    "duplicate_rows": 0,
+    "memory_usage_mb": 2552.15,
+    "columns_info": [
+        {
+            "column": "patent_id",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 9454161
+        },
+        {
+            "column": "title",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 6619903
+        },
+        {
+            "column": "grant_date",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 2636
+        },
+        {
+            "column": "patent_type",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 7
+        },
+        {
+            "column": "year",
+            "dtype": "int64",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 50
+        }
+    ],
+    "numeric_statistics": {
+        "year": {
+            "count": 9454161.0,
+            "mean": 2008.601643974542,
+            "std": 12.858678393958357,
+            "min": 1976.0,
+            "max": 2025.0
+        }
+    },
+    "text_statistics": {
+        "patent_id": {
+            "avg_length": 7.27,
+            "min_length": 2,
+            "max_length": 8
+        },
+        "title": {
+            "avg_length": 54.44,
+            "min_length": 2,
+            "max_length": 692
+        },
+        "grant_date": {
+            "avg_length": 10.0,
+            "min_length": 10,
+            "max_length": 10
+        },
+        "patent_type": {
+            "avg_length": 6.91,
+            "min_length": 4,
+            "max_length": 32
+        }
+    }
+}

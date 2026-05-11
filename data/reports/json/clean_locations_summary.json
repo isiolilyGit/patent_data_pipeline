@@ -1,0 +1,89 @@
+{
+    "dataset_name": "clean_locations.csv",
+    "rows": 100452,
+    "columns": 6,
+    "duplicate_rows": 0,
+    "memory_usage_mb": 23.96,
+    "columns_info": [
+        {
+            "column": "location_id",
+            "dtype": "str",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 100452
+        },
+        {
+            "column": "city",
+            "dtype": "str",
+            "missing_values": 84,
+            "missing_percent": 0.08,
+            "unique_values": 85129
+        },
+        {
+            "column": "state",
+            "dtype": "str",
+            "missing_values": 68730,
+            "missing_percent": 68.42,
+            "unique_values": 69
+        },
+        {
+            "column": "country",
+            "dtype": "str",
+            "missing_values": 10,
+            "missing_percent": 0.01,
+            "unique_values": 204
+        },
+        {
+            "column": "latitude",
+            "dtype": "float64",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 100346
+        },
+        {
+            "column": "longitude",
+            "dtype": "float64",
+            "missing_values": 0,
+            "missing_percent": 0.0,
+            "unique_values": 100391
+        }
+    ],
+    "numeric_statistics": {
+        "latitude": {
+            "count": 100452.0,
+            "mean": 40.482647219469996,
+            "std": 16.724973352183014,
+            "min": -53.1625688,
+            "max": 78.9257958
+        },
+        "longitude": {
+            "count": 100452.0,
+            "mean": -12.126365847197668,
+            "std": 65.31269587918524,
+            "min": -176.6330556,
+            "max": 178.4421662
+        }
+    },
+    "text_statistics": {
+        "location_id": {
+            "avg_length": 36.0,
+            "min_length": 36,
+            "max_length": 36
+        },
+        "city": {
+            "avg_length": 9.31,
+            "min_length": 1,
+            "max_length": 56
+        },
+        "state": {
+            "avg_length": 2.0,
+            "min_length": 2,
+            "max_length": 2
+        },
+        "country": {
+            "avg_length": 2.0,
+            "min_length": 2,
+            "max_length": 2
+        }
+    }
+}
