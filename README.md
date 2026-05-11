@@ -37,7 +37,7 @@ https://github.com/YOUR_USERNAME/YOUR_REPO
 
 STREAMLIT DASHBOARD LINK
 
-https://YOUR_APP_LINK.streamlit.app
+https://patent-data-pipeline.onrender.com
 
 
 KEY FEATURES
@@ -50,6 +50,9 @@ KEY FEATURES
 - Network graph analysis
 - Interactive dashboard filters
 - Downloadable reports
+
+CHALLENGES FACED
+- the large .tsv, .csv, and outputs from scripts could not be uploaded to git.
 
 
 FILES INCLUDED
